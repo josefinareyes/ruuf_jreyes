@@ -35,9 +35,7 @@ Tu solución debe pasar los siguientes casos de prueba:
 ## 📝 Tu Solución
 
 Primero, se valida que ninguna de las dimensiones con las que se está trabajando sea 0, para así evitar futuras divisiones por 0 que rompan el código. 
-
 Luego, se toman las dimensiones validadas y se evalúan 4 configuraciones distintas, calculando en cada una cuántos paneles completos caben en la orientación principal y,  adicionalmente, si se pueden aprovechar las franjas que sobran poniendo paneles rotados. Finalmente se comparan todas estas configuraciones y se devuelve la de mayor valor, asegurando la mejor utilización posible del espacio del techo. 
-
 Se utilizan 4 configuraciones porque combinan ambas orientaciones posibles del panel (horizontal y vertical) con los dos ejes del techo (ancho y alto), lo que permite cubrir todos los casos relevantes. 
 ---
 
